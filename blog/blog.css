@@ -1,0 +1,39 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.navbar{
+	background-color: DarkPurple;
+}
+.navbar form p{
+	color: white;
+}
+.jumbotron {
+    height: 95%;
+	max-height: 500px;
+	padding: 10px;
+	background-color: DarkRed;
+    color: Yellow;
+	position: relative;
+
+}
+.jumbotron p {
+    text-align: center;
+	bottom: 0;
+}
+.jumbotron a.btn-info {
+    background-color: DarkRed;
+    border: 0px;
+	border-radius: 20px;
+    color: #CCC;
+    font-size: 1.3em;
+}
+.jumbotron a.btn-info:hover,
+.jumbotron a.btn-info:focus {
+    color: #FFF;
+    border: 0px;
+}
+.jumbotron a.btn-info:active {
+    background-color: Red;
+}
